@@ -1,8 +1,8 @@
+// LInking javascript with id of input and button
 const markArray = document.getElementById `markArray`
 const result = document.getElementById `result`
 
-
-
+// If else statement that converts marks to grade
 function convert(){
     const mark = parseInt (markArray.value)
     let grade;
