@@ -19,3 +19,5 @@
 ##### https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 ## Author
 ### Henry Cheche
+## Licence
+### MIT License
