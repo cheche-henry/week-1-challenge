@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Grade Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        
+    </style>
 </head>
 <body>
-    <!--input section-->
-    <div class="container">
+<!--input section-->
+<h3>Student Grade Calculator</h3>
+<div class="container">
+    <div class="form">
+        <div class="input">
         <input type="text" id="math" placeholder="Mathematics" required>
         <input type="text" id="eng" placeholder="English" required>
         <input type="text" id="swa" placeholder="Kiswahili" required>
         <input type="text" id="phy" placeholder="Physics" required>
         <input type="text" id="chem" placeholder="Chemistry" required>
         <button onclick="calculate()">Calculate Grade</button>
-    </div>
-    <!--display grades on website-->
+        <!--display grades on website-->
     <p id="result"></p>
     <p id="per"></p>
     <p id="grade"></p>
+    </div>
+</div>
+</div>
+    
     <!--link to script.js-->
     <script src="./script.js"></script>
 </body>

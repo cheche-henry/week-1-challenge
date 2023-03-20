@@ -5,19 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Net Salary Calculator</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <h3>Net Salary Calculator</h3>
     <!--Input section for basic salary and allowances-->
     <div class="container">
-        <input type="text" id="bas" placeholder="Enter basic salary">
-        <input type="text" id="all" placeholder="Enter total allowances">
-        <button onclick="calculate()">Button</button>
+        <div class="form">
+            <div class="input">
+                <input type="text" id="bas" placeholder="Enter basic salary">
+                <input type="text" id="all" placeholder="Enter total allowances">
+                <button onclick="calculate()">Calculate net salary</button>
+                <!--Shows results of calculations-->
+                <p id="nssf"></p>
+                <p id="tax"></p>
+                <p id="nhif"></p>
+                <p id="salary"></p>
+                
+            </div>
+        </div>
     </div>
-    <!--Shows results of calculations-->
-    <p id="nssf"></p>
-    <p id="tax"></p>
-    <p id="nhif"></p>
-    <p id="salary"></p>
     <!--link to script.js-->
     <script src="./script.js"></script>
 </body>

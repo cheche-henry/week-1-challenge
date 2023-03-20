@@ -29,7 +29,7 @@ function calculate(){
     //link javascript to paragraphs in index.html
     document.getElementById(`result`).innerHTML= 
     `Your total marks are: ${total}`
-    document.getElementById(`per`).innerHTML=`Your percentage is: ${per}`
+    document.getElementById(`per`).innerHTML=`Your percentage is: ${per}%`
     document.getElementById(`grade`).innerHTML=`Your grade is: ${grade} `
     
 }
