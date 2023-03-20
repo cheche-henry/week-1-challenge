@@ -1,7 +1,7 @@
 # Week 1 coding challenge
 ### The coding challenge includes a student grade generator, speed detector and a net salary calculator
 ## Description
-### The coding challenge comprise three individual challenges:
+### The coding challenge comprises of three individual challenges:
 #### Challenge 1
 ##### Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade as follows: 
 
