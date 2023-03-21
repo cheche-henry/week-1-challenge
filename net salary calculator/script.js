@@ -16,7 +16,7 @@ function calculate(){
         tax = (gross*0.3)
     }
     //calculate NSSF
-    let nssf = gross/5
+    let nssf = gross/50
     //calculate NHIF
     let nhif;
     if (gross <= 5999){
@@ -34,10 +34,10 @@ function calculate(){
     }
     else if (gross >=15000 && gross <20000){
         nhif = 600
-  } else if (gross >=20000 && gross <8000){
+  } else if (gross >=20000 && gross <25000){
         nhif = 750
   }
-    else if (gross >=25000 && gross <12000){
+    else if (gross >=25000 && gross <30000){
         nhif = 850
   }
     else if (gross >=30000 && gross<35000){
