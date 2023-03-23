@@ -53,7 +53,7 @@ function calculate() {
       nhif = 1500;
     } else if (gross >= 90000 && gross < 100000) {
       nhif = 1600;
-    } else if (gross >= 1000000) {
+    } else if (gross >= 100000) {
       nhif = 1700;
     }
     //links javascript to paragraphs that display results
